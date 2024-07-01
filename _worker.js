@@ -1534,7 +1534,7 @@ async function getAddressescsv(tls) {
 			}
 		
 			// 从第二行开始遍历CSV行
-			for (let i = 2; i < lines.length; i++) {
+			for (let i = 1; i < lines.length; i++) {
 				const columns = lines[i].split(',');
 		
 				// 检查TLS是否为"TRUE"且速度大于DLS
